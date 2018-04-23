@@ -1,0 +1,25 @@
+{
+  "name": "Splendor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-direct-import": "^0.5.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.3",
+    "webpack-serve": "^0.3.1"
+  },
+  "scripts": {
+    "start:server": "nodemon src/server/index.js --exec babel-node"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
